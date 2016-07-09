@@ -4,4 +4,4 @@ cd $OPENSHIFT_REPO_DIR
 export GRADLE_USER_HOME=$OPENSHIFT_DATA_DIR/gradle
 export JAVA_HOME=$OPENSHIFT_JBOSSEWS_JDK8
 export PATH=$JAVA_HOME/bin:$GRADLE_HOME/bin:$PATH
-./gradle build
+./gradlew build
